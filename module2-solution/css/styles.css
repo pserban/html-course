@@ -11,6 +11,11 @@ h1 {
     font-weight: 1.75em;
 }
 
+article {
+    max-height: 150px;
+    overflow: hidden;
+}
+
 article.menu-item {
     background-color: #999;
     border-style: solid;
@@ -31,7 +36,11 @@ article.menu-item > h2 {
 article.menu-item > p {
     clear: both;
     padding: 10px;
+    margin-bottom: 10px;
     font-weight: 1em;
+    overflow: hidden;
+    max-height: 100px;
+    text-overflow: clip;
 }
 
 section {
@@ -108,6 +117,10 @@ section > div:nth-child(3) article.menu-item > h2 {
 
 /************ Small devices only ****************/
 @media (max-width: 767px) {
+    section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6 {
         float: left;
     }
