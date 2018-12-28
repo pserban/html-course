@@ -40,7 +40,7 @@ article.menu-item > p {
     font-weight: 1em;
     overflow: hidden;
     max-height: 100px;
-    text-overflow: clip;
+    text-overflow: '';
 }
 
 section {
