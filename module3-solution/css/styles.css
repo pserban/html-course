@@ -11,6 +11,15 @@
     margin-bottom: 20px;
 }
 
+#collapsable-nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav-list {
+    margin: 0;
+}
+
 #nav-list a {
     font-size: 1.6em;
     font-weight: bold;
