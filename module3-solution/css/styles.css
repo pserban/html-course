@@ -6,9 +6,12 @@
     background-color: bisque;
 }
 
-#main-content section .container-fluid .row {
+#main-content section .container-fluid > div {
+    margin-bottom: 10px;
+}
+
+#chicken > div , #beef > div, #sushi > div {
     background-color: bisque;
-    margin-bottom: 20px;
 }
 
 #collapsable-nav {
