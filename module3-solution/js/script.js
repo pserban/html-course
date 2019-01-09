@@ -1,11 +1,16 @@
-$( document ).ready(() => {
-    console.log("A01");
-//    $("#toggle-button").blur(function(event) {
-//        console.log("A02");
-//        var screenWidth = window.innerWidth;
+// $( document ).ready(() => {  
+//     console.log("A01");
+    
+//     $("#toggle-button").blur(function(event) {
+//         console.log("A02");
+//         var screenWidth = window.innerWidth;
 
-//        if (screenWidth < 768) {
-//         $("#collapsable-nav").collapse('hide');
-//        }
+//         if (screenWidth < 768) {
+//             $("#collapsable-nav").collapse('hide');
+//         }
+
+//         $("#navbarToggle").click(function (event) {
+//             $(event.target).focus();
+//         });       
 //     }) 
-});
+// });
